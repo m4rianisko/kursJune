@@ -2,7 +2,6 @@ namespace ApmConsole;
 
 public class LoggingService
 {
-
     private void LogSth()
     {
         Console.WriteLine($"{Environment.CurrentManagedThreadId} - Start log sth - {DateTime.Now}");
